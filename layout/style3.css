@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7faf4;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width: 100px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #a5c8ca;
+
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li{
+    margin: 20px 0;
+}
+.sidebar ul li a{
+    color: #2f3833;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content{
+    flex-grow: 1;
+    padding: 20px;
+}
+.content h1{
+    color: #2f3833;
+}
+.content p {
+    color: #2f3833}
